@@ -5,7 +5,9 @@ import numpy as np
 
 #Define function for loading of solar data
 def load_solar_data(path_data: str, path_labels:str) -> tuple:
-    """Load and preprocess data and labels for training the GAN model."""
+    """
+    Load and preprocess solar data and labels for GAN training
+    """
     with open(f'{path_data}' if path_data.endswith('csv') else f'{path_data}.csv', 'r') as csvfile:
         rows = np.array([row for row in csv.reader(csvfile)], dtype=float)
     #Specify according to time points in your own dataset
@@ -29,6 +31,9 @@ def load_solar_data(path_data: str, path_labels:str) -> tuple:
 
 #Define function for loading wind data
 def load_wind_data(path_data: str, path_labels: str) -> tuple:
+    """
+    Load and preprocess wind data and labels for GAN training
+    """
     #Example dataset created for evnet_based GANs wind scenarios generation
     # Data from NREL wind integrated datasets
     with open(f'{path_data}' if path_data.endswith('csv') else f'{path_data}.csv', 'r') as csvfile:
