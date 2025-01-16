@@ -5,6 +5,6 @@ Y. Chen, Y. Wang, D. Kirschen and B. Zhang, "Model-Free Renewable Scenario Gener
 
 Original Codebase: https://github.com/chennnnnyize-zz/Renewables_Scenario_Gen_GAN
 
-### Dataset Reference
+### Data Set Reference
 * Solar Data: https://www.nrel.gov/grid/solar-power-data.html
 * Wind Data: https://www.nrel.gov/grid/wind-integration-data.html
