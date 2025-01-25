@@ -10,5 +10,8 @@ Original Codebase: https://github.com/chennnnnyize-zz/Renewables_Scenario_Gen_GA
 * Wind Data: https://www.nrel.gov/grid/wind-integration-data.html
 
 ### Results
+The recreated experiment demonstrates the GAN's capability to resemble the data distribution and leverage the provided labels for conditioned generation of certain sceanrios after short training trials [Notebook](./renewables_scenario_gen_gan.ipynb). Obviously, the training can be extended and parameters adapted to improve the GAN's fidelity.
+
+The plots present synthesized solar power generation scenarios arranged by ordinal label values.
 
 ![generated_data](../assets/generated_data.png)
