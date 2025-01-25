@@ -11,4 +11,4 @@ Original Codebase: https://github.com/chennnnnyize-zz/Renewables_Scenario_Gen_GA
 
 ### Results
 
-![generated_data](..assets/generated_data.png)
+![generated_data](../assets/generated_data.png)
