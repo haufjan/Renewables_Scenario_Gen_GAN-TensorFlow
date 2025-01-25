@@ -8,3 +8,7 @@ Original Codebase: https://github.com/chennnnnyize-zz/Renewables_Scenario_Gen_GA
 ### Data Set Reference
 * Solar Data: https://www.nrel.gov/grid/solar-power-data.html
 * Wind Data: https://www.nrel.gov/grid/wind-integration-data.html
+
+### Results
+
+![generated_data](..assets/generated_data.png)
