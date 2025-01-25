@@ -45,6 +45,8 @@ def main(args):
     #Rescaling
     data_gen = data_gen*m
 
+    input('\nPress Enter to finish execution...')
+
     return data_gen
     
 if __name__ == '__main__':
