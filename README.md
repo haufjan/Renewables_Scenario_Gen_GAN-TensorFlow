@@ -25,7 +25,7 @@ numpy==2.0.2
 tensorflow==2.18.0
 ```
 ### Usage
-The easiest way to get started is by cloning this repository and use the [Notebook](./renewables_scenario_gen_gan.ipynb).
+To conduct the experiments, the easiest way to get started is by cloning this repository and use the [Notebook](./renewables_scenario_gen_gan.ipynb).
 
 Alternatively, run it from the terminal.
 ```bash
