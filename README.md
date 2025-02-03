@@ -22,6 +22,7 @@ The model was implemented and tested using `Python==3.11.9`. Further, the follow
 keras==3.7.0
 matplotlib==3.10.0
 numpy==2.0.2
+scipy==1.15.1
 tensorflow==2.18.0
 ```
 ### Usage
