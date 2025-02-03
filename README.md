@@ -14,7 +14,7 @@ The recreated experiment demonstrates the GAN's capability to resemble the data 
 
 The plots present synthesized solar power generation scenarios arranged by ordinal label values.
 
-<img src="../assets/generated_data.png" alt="Genrated data sorted by labels" width="600"/>
+<img src="../assets/generated_data.png" alt="Genrated data sorted by labels" width="800"/>
 
 ### Version Notes
 The model was implemented and tested using `Python==3.11.9`. Further, the following modules were utilized (see [Requirements File](./requirements.txt)):
@@ -25,7 +25,7 @@ numpy==2.0.2
 tensorflow==2.18.0
 ```
 ### Usage
-The easiest way to get started is by cloning this repository and use the [Notebook](./renewables_scenario_gen_gan.ipynb).
+To conduct the experiments, the easiest way to get started is by cloning this repository and use the [Notebook](./renewables_scenario_gen_gan.ipynb).
 
 Alternatively, run it from the terminal.
 ```bash
