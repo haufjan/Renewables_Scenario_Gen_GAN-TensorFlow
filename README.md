@@ -33,9 +33,9 @@ The recreated experiment demonstrates the GAN's capability to resemble the data 
 ##### Solar Generation
 The plots present synthesized solar power generation scenarios arranged by ordinal label values.
 
-<img src="../assets/generated_data.png" alt="Genrated data sorted by labels" width="800"/>
+<img src="../assets/generated_data_solar.png" alt="Genrated data sorted by labels" width="800"/>
 
 ##### Wind Generation
 The plots present synthesized wind power generation scenarios arranged by ordinal label values.
 
-<img src="../assets/generated_data.png" alt="Genrated data sorted by labels" width="800"/>
+<img src="../assets/generated_data_wind.png" alt="Genrated data sorted by labels" width="800"/>
