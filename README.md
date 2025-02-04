@@ -20,7 +20,7 @@ tensorflow==2.18.0
 ```
 
 ### Usage
-To conduct the experiments, the easiest way to get started is by cloning this repository and use the [Notebook](./renewables_scenario_gen_gan.ipynb).
+To conduct the experiments, the easiest way to get started is by cloning this repository and use one of the notebooks ([solar](./renewables_scenario_gen_gan_solar.ipynb)/[wind](./renewables_scenario_gen_gan_wind.ipynb)).
 
 Alternatively, run it from the terminal.
 ```bash
@@ -28,14 +28,14 @@ py train.py --data=datasets/solar.csv --label=datasets/solar_label.csv --epochs=
 ```
 
 ### Results
-The recreated experiment demonstrates the GAN's capability to resemble the data distribution and leverage the provided labels for conditioned generation of certain sceanrios after short training trials [Notebook](./renewables_scenario_gen_gan.ipynb). Obviously, the training can be extended and parameters adapted to improve the GAN's fidelity.
+The recreated experiment demonstrates the GAN's capability to resemble the data distribution and leverage the provided labels for conditioned generation of certain sceanrios after short training trials. Obviously, the training can be extended and parameters adapted to improve the GAN's fidelity.
 
 ##### Solar Generation
-The plots present synthesized solar power generation scenarios arranged by ordinal label values.
+The plots present synthesized [solar](./renewables_scenario_gen_gan_solar.ipynb) power generation scenarios arranged by ordinal label values.
 
 <img src="../assets/generated_data_solar.png" alt="Genrated data sorted by labels" width="800"/>
 
 ##### Wind Generation
-The plots present synthesized wind power generation scenarios arranged by ordinal label values.
+The plots present synthesized [wind](./renewables_scenario_gen_gan_wind.ipynb) power generation scenarios arranged by ordinal label values.
 
 <img src="../assets/generated_data_wind.png" alt="Genrated data sorted by labels" width="800"/>
