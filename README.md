@@ -28,7 +28,7 @@ py train.py --data=datasets/solar.csv --label=datasets/solar_label.csv --epochs=
 ```
 
 ### Results
-The recreated experiment demonstrates the GAN's capability to resemble the data distribution and leverage the provided labels for conditioned generation of certain sceanrios after short training trials. Obviously, the training can be extended and parameters adapted to improve the GAN's fidelity.
+The recreated experiments demonstrate the GAN's capability to resemble the data distribution and leverage the provided labels for conditioned generation of certain scenarios, even after short training trials. Obviously, the training can be extended and parameters adapted to improve the GAN's fidelity.
 
 ##### Solar Generation
 The plots present synthesized [solar](./renewables_scenario_gen_gan_solar.ipynb) power generation scenarios arranged by ordinal label values.
