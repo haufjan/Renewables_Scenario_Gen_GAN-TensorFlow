@@ -12,9 +12,9 @@ Original Codebase: https://github.com/chennnnnyize-zz/Renewables_Scenario_Gen_GA
 ### Version Notes
 The model was implemented and tested using `Python==3.11.9`. Further, the following modules were utilized (see [Requirements File](./requirements.txt)):
 ```
-keras==3.10.0
+keras==3.12.0
 matplotlib==3.10.7
-numpy==2.3.4
+numpy==2.3.5
 scipy==1.16.3
 tensorflow==2.20.0
 ```
